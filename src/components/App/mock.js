@@ -97,6 +97,190 @@ export const data = {
         icon : "/img/icon/icon-task-16.png",
         alt: "task-16"
       },
+      {
+        id: "web-les-13",
+        num: 13,
+        title: "2 неделя. Прямая трансляция",
+        description: "Ответы на вопросы, разбор сложных моментов",
+        icon : "/img/icon/icon-task-3.png",
+        alt: "task-3"
+      },
+      {
+        id: "web-les-14",
+        num: 14,
+        title: "Урок №10",
+        description: "Шрифты на сайте",
+        icon : "/img/icon/icon-task-17.png",
+        alt: "task-17"
+      },
+      {
+        id: "web-les-15",
+        num: 15,
+        title: "Урок №11",
+        description: "Псевдоклассы и псевдоэлементы",
+        icon : "/img/icon/icon-task-18.png",
+        alt: "task-18"
+      },
+      {
+        id: "web-les-16",
+        num: 16,
+        title: "Урок №12",
+        description: "Формы на сайте",
+        icon : "/img/icon/icon-task-19.png",
+        alt: "task-19"
+      },
+      {
+        id: "web-les-17",
+        num: 17,
+        title: "Урок №13",
+        description: "Знакомство с JavaScript",
+        icon : "/img/icon/icon-task-20.png",
+        alt: "task-20"
+      },
+      {
+        id: "web-les-18",
+        num: 18,
+        title: "Урок №14",
+        description: "Всплывающие окна на jQuery",
+        icon : "/img/icon/icon-task-21.png",
+        alt: "task-21"
+      },
+      {
+        id: "web-les-19",
+        num: 19,
+        title: "3 неделя. Прямая трансляция",
+        description: "Ответы на вопросы, разбор сложных моментов",
+        icon : "/img/icon/icon-task-3.png",
+        alt: "task-3"
+      },
+      {
+        id: "web-les-20",
+        num: 20,
+        title: "Бонус - урок №2",
+        description: "Ответы на вопросы, разбор сложных моментов",
+        icon : "/img/icon/icon-task-33.png",
+        alt: "task-33"
+      },
+      {
+        id: "web-les-21",
+        num: 21,
+        title: "Урок №15",
+        description: "Анимация на CSS3",
+        icon : "/img/icon/icon-task-22.png",
+        alt: "task-22"
+      },
+      {
+        id: "web-les-22",
+        num: 22,
+        title: "Бонус - урок №3",
+        description: "Слайдер на сайте",
+        icon : "/img/icon/icon-task-23.png",
+        alt: "task-23"
+      },
+      {
+        id: "web-les-23",
+        num: 23,
+        title: "Практика. Часть1",
+        description: "Форма + блок “Производство”",
+        icon : "/img/icon/icon-task-34.png",
+        alt: "task-34"
+      },
+      {
+        id: "web-les-24",
+        num: 24,
+        title: "Практика. Часть2",
+        description: "Делаем адаптив",
+        icon : "/img/icon/icon-task-34.png",
+        alt: "task-34"
+      },
+      {
+        id: "web-les-25",
+        num: 25,
+        title: "4 неделя. Прямая трансляция",
+        description: "Ответы на вопросы, разбор сложных моментов",
+        icon : "/img/icon/icon-task-3.png",
+        alt: "task-3"
+      },
+      {
+        id: "web-les-26",
+        num: 26,
+        title: "Урок №16",
+        description: "Гео-карты для сайта",
+        icon : "/img/icon/icon-task-24.png",
+        alt: "task-24"
+      },
+      {
+        id: "web-les-27",
+        num: 27,
+        title: "Урок №17",
+        description: "Аналитика для сайта",
+        icon : "/img/icon/icon-task-28.png",
+        alt: "task-28"
+      },
+      {
+        id: "web-les-28",
+        num: 28,
+        title: "Урок №18",
+        description: "Как делаются многостраничные сайты",
+        icon : "/img/icon/icon-task-26.png",
+        alt: "task-26"
+      },
+      {
+        id: "web-les-29",
+        num: 29,
+        title: "Урок №19",
+        description: "Тестирование верстки",
+        icon : "/img/icon/icon-task-25.png",
+        alt: "task-25"
+      },
+      {
+        id: "web-les-30",
+        num: 30,
+        title: "Урок №20",
+        description: "Большой урок по WordPress",
+        icon : "/img/icon/icon-task-27.png",
+        alt: "task-27"
+      },
+      {
+        id: "web-les-31",
+        num: 31,
+        title: "5 неделя. Прямая трансляция",
+        description: "Ответы на вопросы, разбор сложных моментов",
+        icon : "/img/icon/icon-task-3.png",
+        alt: "task-3"
+      },
+      {
+        id: "web-les-32",
+        num: 32,
+        title: "Урок №21",
+        description: "Поиск клиентов и продажа своих услуг",
+        icon : "/img/icon/icon-task-35.png",
+        alt: "task-35"
+      },
+      {
+        id: "web-les-33",
+        num: 33,
+        title: "Бонус-урок по SEO",
+        description: "3 часа подробного разбора поисковой оптимизации",
+        icon : "/img/icon/icon-task-36.png",
+        alt: "task-36"
+      },
+      {
+        id: "web-les-34",
+        num: 34,
+        title: "Финальная встреча на курсе. Прямая трансляция",
+        description: "Вот и все :)",
+        icon : "/img/icon/icon-task-3.png",
+        alt: "task-3"
+      },
+      {
+        id: "web-les-35",
+        num: 35,
+        title: "7 бонусная неделя. ФРИЛАНС",
+        description: "6 часов подробного разбора всех тонкостей фриланса",
+        icon : "/img/icon/icon-task-35.png",
+        alt: "task-35"
+      },
     ]
   },
   js : {
