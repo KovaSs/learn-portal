@@ -7,16 +7,26 @@
     background-color: #27ae60;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    height: 80px;
+    height: 90px;
     display: flex;
     align-items: center;
+    min-width: 60px;
     i {
       margin: 0 auto;
       font-size: 17px;
       color: #fff;
     }
   }
+  &_middle {
+    min-width: 450px;
+    // display: flex;
+    // align-items: center;
+    img {
+      margin: 10px 0;
+    }
+  }
   &__last{
+    min-width: 500px;
     h2 {
       margin: 15px 0 0 0;
       color: #006caf;

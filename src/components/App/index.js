@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import MenuItemList from '../MenuItemList';
+import { data } from './mock.js';
 import "./app.scss"
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -17,7 +18,11 @@ class App extends Component {
   }
 
   render() {
+    const { web : { lessons } } = data
     const date = new Date()
+    const menuNawItem = lessons.map(item => {
+      return <Menu.Item key={item.id}>Lesson {item.num}</Menu.Item>
+    })
     return (
       <Layout style={{ minHeight: '100vh' }}>
         <Sider
@@ -31,11 +36,7 @@ class App extends Component {
               key="sub1"
               title={<span><Icon type="chrome"/><span>Web-deweloper</span></span>}
             >
-              <Menu.Item key="1">Lesson 1</Menu.Item>
-              <Menu.Item key="2">Lesson 2</Menu.Item>
-              <Menu.Item key="3">Lesson 3</Menu.Item>
-              <Menu.Item key="4">Lesson 4</Menu.Item>
-
+              { menuNawItem }
             </SubMenu>
             <SubMenu
               key="sub2"
@@ -55,7 +56,7 @@ class App extends Component {
               <Breadcrumb.Item>Главная</Breadcrumb.Item>
             </Breadcrumb>
             <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
-              <MenuItemList/>
+              <MenuItemList lesson={lessons}/>
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>

@@ -2,13 +2,16 @@ import React from 'react'
 import MenuItem from '../MenuItem'
 import './menuItemList.scss'
 
-const MenuItemList = () => {
+
+const MenuItemList = ({lesson}) => {
+  const menuItems = lesson.map(item => {
+    return <MenuItem key={item.id} itemInfo={item}/>
+  })
   return(
     <ul className="menu-list">
-      <MenuItem/>
+      { menuItems }
     </ul>
   )
-
 }
 
 export default MenuItemList
