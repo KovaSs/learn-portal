@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuItem from '../MenuItem'
-import './menuItemList.css'
+import './menuItemList.scss'
 
 const MenuItemList = () => {
   return(

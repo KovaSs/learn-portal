@@ -1,0 +1,28 @@
+.menu-item {
+  background-color: #ffffff;
+  margin: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  &__first{
+    background-color: #27ae60;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    i {
+      margin: 0 auto;
+      font-size: 17px;
+      color: #fff;
+    }
+  }
+  &__last{
+    h2 {
+      margin: 15px 0 0 0;
+      color: #006caf;
+    }
+    div {
+      font-size: 15px;
+    }
+  }
+}
