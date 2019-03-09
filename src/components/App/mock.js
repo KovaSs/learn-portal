@@ -6,7 +6,7 @@ export const data = {
         num: 1,
         title: "Урок №1",
         description: "Работа с графикой для верстальщика",
-        icon : "/img/icon/icon-task-5.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-5.png",
         alt: "task-5"
       },
       {
@@ -14,7 +14,7 @@ export const data = {
         num: 2,
         title: "Дополнительный урок",
         description: "Настройка рабочего пространства",
-        icon : "/img/icon/icon-task-6.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-6.png",
         alt: "task-6"
       },
       {
@@ -22,7 +22,7 @@ export const data = {
         num: 3,
         title: "Урок №2",
         description: "Знакомcтво с основами HTML",
-        icon : "/img/icon/icon-task-7.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-7.png",
         alt: "task-7"
       },
       {
@@ -30,7 +30,7 @@ export const data = {
         num: 4,
         title: "Урок №3",
         description: "Знакомство с основами CSS",
-        icon : "/img/icon/icon-task-8.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-8.png",
         alt: "task-8"
       },
       {
@@ -38,7 +38,7 @@ export const data = {
         num: 5,
         title: "Урок №4",
         description: "Блочная модель CSS",
-        icon : "/img/icon/icon-task-9.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-9.png",
         alt: "task-9"
       },
       {
@@ -46,7 +46,7 @@ export const data = {
         num: 6,
         title: "Урок №5",
         description: "Верстка макета на HTML и CSS",
-        icon : "/img/icon/icon-task-10.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-10.png",
         alt: "task-10"
       },
       {
@@ -54,7 +54,7 @@ export const data = {
         num: 7,
         title: "1 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
-        icon : "/img/icon/icon-task-3.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
         alt: "task-3"
       },
       {
@@ -62,7 +62,7 @@ export const data = {
         num: 8,
         title: "Урок №6",
         description: "Библиотека Bootstrap 4",
-        icon : "/img/icon/icon-task-12.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-12.png",
         alt: "task-12"
       },
       {
@@ -70,7 +70,7 @@ export const data = {
         num: 9,
         title: "Урок №7",
         description: "Верстка на Bootstrap",
-        icon : "/img/icon/icon-task-13.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-13.png",
         alt: "task-13"
       },
       {
@@ -78,7 +78,7 @@ export const data = {
         num: 10,
         title: "Урок №8",
         description: "Препроцессор SASS/SCSS",
-        icon : "/img/icon/icon-task-14.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-14.png",
         alt: "task-14"
       },
       {
@@ -86,7 +86,7 @@ export const data = {
         num: 11,
         title: "Урок №9",
         description: "Flexbox верстка",
-        icon : "/img/icon/icon-task-15.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-15.png",
         alt: "task-15"
       },
       {
@@ -94,7 +94,7 @@ export const data = {
         num: 12,
         title: "Бонус урок №1",
         description: "Адаптивная верстка",
-        icon : "/img/icon/icon-task-16.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-16.png",
         alt: "task-16"
       },
       {
@@ -102,7 +102,7 @@ export const data = {
         num: 13,
         title: "2 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
-        icon : "/img/icon/icon-task-3.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
         alt: "task-3"
       },
       {
@@ -110,7 +110,7 @@ export const data = {
         num: 14,
         title: "Урок №10",
         description: "Шрифты на сайте",
-        icon : "/img/icon/icon-task-17.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-17.png",
         alt: "task-17"
       },
       {
@@ -118,7 +118,7 @@ export const data = {
         num: 15,
         title: "Урок №11",
         description: "Псевдоклассы и псевдоэлементы",
-        icon : "/img/icon/icon-task-18.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-18.png",
         alt: "task-18"
       },
       {
@@ -126,7 +126,7 @@ export const data = {
         num: 16,
         title: "Урок №12",
         description: "Формы на сайте",
-        icon : "/img/icon/icon-task-19.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-19.png",
         alt: "task-19"
       },
       {
@@ -134,7 +134,7 @@ export const data = {
         num: 17,
         title: "Урок №13",
         description: "Знакомство с JavaScript",
-        icon : "/img/icon/icon-task-20.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-20.png",
         alt: "task-20"
       },
       {
@@ -142,7 +142,7 @@ export const data = {
         num: 18,
         title: "Урок №14",
         description: "Всплывающие окна на jQuery",
-        icon : "/img/icon/icon-task-21.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-21.png",
         alt: "task-21"
       },
       {
@@ -150,7 +150,7 @@ export const data = {
         num: 19,
         title: "3 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
-        icon : "/img/icon/icon-task-3.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
         alt: "task-3"
       },
       {
@@ -158,7 +158,7 @@ export const data = {
         num: 20,
         title: "Бонус - урок №2",
         description: "Ответы на вопросы, разбор сложных моментов",
-        icon : "/img/icon/icon-task-33.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-33.png",
         alt: "task-33"
       },
       {
@@ -166,7 +166,7 @@ export const data = {
         num: 21,
         title: "Урок №15",
         description: "Анимация на CSS3",
-        icon : "/img/icon/icon-task-22.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-22.png",
         alt: "task-22"
       },
       {
@@ -174,7 +174,7 @@ export const data = {
         num: 22,
         title: "Бонус - урок №3",
         description: "Слайдер на сайте",
-        icon : "/img/icon/icon-task-23.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-23.png",
         alt: "task-23"
       },
       {
@@ -182,7 +182,7 @@ export const data = {
         num: 23,
         title: "Практика. Часть1",
         description: "Форма + блок “Производство”",
-        icon : "/img/icon/icon-task-34.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-34.png",
         alt: "task-34"
       },
       {
@@ -190,7 +190,7 @@ export const data = {
         num: 24,
         title: "Практика. Часть2",
         description: "Делаем адаптив",
-        icon : "/img/icon/icon-task-34.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-34.png",
         alt: "task-34"
       },
       {
@@ -198,7 +198,7 @@ export const data = {
         num: 25,
         title: "4 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
-        icon : "/img/icon/icon-task-3.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
         alt: "task-3"
       },
       {
@@ -206,7 +206,7 @@ export const data = {
         num: 26,
         title: "Урок №16",
         description: "Гео-карты для сайта",
-        icon : "/img/icon/icon-task-24.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-24.png",
         alt: "task-24"
       },
       {
@@ -214,7 +214,7 @@ export const data = {
         num: 27,
         title: "Урок №17",
         description: "Аналитика для сайта",
-        icon : "/img/icon/icon-task-28.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-28.png",
         alt: "task-28"
       },
       {
@@ -222,7 +222,7 @@ export const data = {
         num: 28,
         title: "Урок №18",
         description: "Как делаются многостраничные сайты",
-        icon : "/img/icon/icon-task-26.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-26.png",
         alt: "task-26"
       },
       {
@@ -230,7 +230,7 @@ export const data = {
         num: 29,
         title: "Урок №19",
         description: "Тестирование верстки",
-        icon : "/img/icon/icon-task-25.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-25.png",
         alt: "task-25"
       },
       {
@@ -238,7 +238,7 @@ export const data = {
         num: 30,
         title: "Урок №20",
         description: "Большой урок по WordPress",
-        icon : "/img/icon/icon-task-27.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-27.png",
         alt: "task-27"
       },
       {
@@ -246,7 +246,7 @@ export const data = {
         num: 31,
         title: "5 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
-        icon : "/img/icon/icon-task-3.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
         alt: "task-3"
       },
       {
@@ -254,7 +254,7 @@ export const data = {
         num: 32,
         title: "Урок №21",
         description: "Поиск клиентов и продажа своих услуг",
-        icon : "/img/icon/icon-task-35.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-35.png",
         alt: "task-35"
       },
       {
@@ -262,7 +262,7 @@ export const data = {
         num: 33,
         title: "Бонус-урок по SEO",
         description: "3 часа подробного разбора поисковой оптимизации",
-        icon : "/img/icon/icon-task-36.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-36.png",
         alt: "task-36"
       },
       {
@@ -270,7 +270,7 @@ export const data = {
         num: 34,
         title: "Финальная встреча на курсе. Прямая трансляция",
         description: "Вот и все :)",
-        icon : "/img/icon/icon-task-3.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
         alt: "task-3"
       },
       {
@@ -278,7 +278,7 @@ export const data = {
         num: 35,
         title: "7 бонусная неделя. ФРИЛАНС",
         description: "6 часов подробного разбора всех тонкостей фриланса",
-        icon : "/img/icon/icon-task-35.png",
+        icon : "http://isaev.store/www/web-portal/img/icon/icon-task-35.png",
         alt: "task-35"
       },
     ]

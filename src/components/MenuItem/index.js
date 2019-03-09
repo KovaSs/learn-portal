@@ -9,7 +9,7 @@ const MenuItem = ({itemInfo}) => {
     <Row className="menu-item">
       <Col className="menu-item__first" span={1}><Icon type="check"/></Col>
       <Col align="center" className="menu-item__middle" span={2}>
-        <img src={process.env.PUBLIC_URL + `${icon}`} alt={alt}/>
+        <img src={icon} alt={alt}/>
       </Col>
       <Col span={9}>
         <div className="menu-item__last">
