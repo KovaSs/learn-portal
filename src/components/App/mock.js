@@ -1,5 +1,6 @@
 export const data = {
   web: {
+    title : "Курс 'Web-Разработчик'",
     lessons : [
       {
         id: "web-les-1",

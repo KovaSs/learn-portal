@@ -9,11 +9,15 @@ const MenuItem = ({itemInfo}) => {
   return (
     <Link to={`/web-dev/${id}`}>
       <Row className="menu-item">
-        <Col className="menu-item__first" span={1}><Icon type="check"/></Col>
+        <Col span={1}>
+          <div className="menu-item__first">
+            <Icon type="check"/>
+          </div>
+        </Col>
         <Col align="center" className="menu-item__middle" span={2}>
           <img src={icon} alt={alt}/>
         </Col>
-        <Col span={9}>
+        <Col span={6}>
           <div className="menu-item__last">
             <h2>{title}</h2>
             <div>{description}</div>
