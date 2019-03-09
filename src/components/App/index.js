@@ -12,10 +12,15 @@ const SubMenu = Menu.SubMenu;
 class App extends Component {
   state = {
     collapsed: false,
+    nameRoute: null
   };
 
   onCollapse = collapsed => {
     this.setState({ collapsed });
+  }
+
+  onChangeRouteName = route => {
+    this.setState({ nameRoute : route })
   }
 
   render() {
@@ -30,6 +35,8 @@ class App extends Component {
         </Menu.Item>
       )
     })
+
+    console.log(`nameRoute ->`, this.props)
     return (
       <Router>
         <Layout style={{ minHeight: '100vh' }}>
@@ -70,7 +77,7 @@ class App extends Component {
           </Sider>
           <Layout>
             <Header style={{ background: '#fff', padding: 0 }}>
-              {/* Курс Web-developer */}
+              
             </Header>
             <Content style={{ margin: '0 16px' }}>
               <Breadcrumb style={{ margin: '16px 0' }}>
@@ -79,14 +86,14 @@ class App extends Component {
               <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
               {/* <Route path='/' exact component={MainPage}/> */}
                 <Route path='/web-dev' exact render={({match}) => {
-                  console.log(match)
                   return <MenuItemList lesson={lessons}/>
                 }}/>
                 <Route path='/web-dev/:id' render={({match}) => {
+                  console.log(`match ->`, match)
                   const {id} = match.params;
                   const data = lessons.filter(item => item.id === id)
                   console.log(match)
-                  return <LessonPage data={data}/>
+                  return <LessonPage data={data[0]} maxLesson={lessons.length}/>
                 }}/>
               </div>
             </Content>
