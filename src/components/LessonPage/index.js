@@ -6,12 +6,13 @@ import "./lessonPage.scss"
 class LessonPage extends Component {
   render() {
     const { data ,data : {title, description, num}, maxLesson} = this.props
+    // const { mainVideo } = this.props.data.content
     console.log(`Page-data ->`, data, this.props)
     return (
       <Row className="lesson-page">
         <Col span={20} offset={2} >
           <div className="lesson-header">
-            <div className="lesson-header__title"><h2>{title}</h2></div>
+            <div className="lesson-header__title"><h3>{title}</h3></div>
             <div className="lesson-header__desc">{description}</div>
             <hr/>
             <div>{num} из {maxLesson} уроков</div>
@@ -36,9 +37,14 @@ class LessonPage extends Component {
               </Col>
             </Row>
           </div>
-        </Col>
-        <Col sm={12} lg={12} style={{ background: 'red' }}>
-        dsfsdfsdgfdshg stfdhg аыпр вапр вапр вапр вапр вапр вапр авпр а
+          <div className="lesson-content">
+            <div className="lesson-content__video_title">
+              {/* <h2>{ mainVideo.title }</h2> */}
+            </div>
+            <div className="lesson-content__video">
+              
+            </div>
+          </div>
         </Col>
       </Row>
     )

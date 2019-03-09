@@ -36,8 +36,7 @@ class App extends Component {
       )
     })
 
-    const {nameRoute} = this.state
-    console.log(`nameRoute ->`, nameRoute)
+    console.log(`nameRoute ->`, this.props)
     return (
       <Router>
         <Layout style={{ minHeight: '100vh' }}>
@@ -82,7 +81,6 @@ class App extends Component {
             </Header>
             <Content style={{ margin: '0 16px' }}>
               <Breadcrumb style={{ margin: '16px 0' }}>
-                <Breadcrumb.Item>Главная</Breadcrumb.Item>
                 <Breadcrumb.Item>Главная</Breadcrumb.Item>
               </Breadcrumb>
               <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
