@@ -11,8 +11,7 @@ const SubMenu = Menu.SubMenu;
 
 class App extends Component {
   state = {
-    collapsed: false,
-    nameRoute: null
+    collapsed: true,
   };
 
   onCollapse = collapsed => {
@@ -36,7 +35,6 @@ class App extends Component {
       )
     })
 
-    console.log(`nameRoute ->`, this.props)
     return (
       <Router>
         <Layout style={{ minHeight: '100vh' }}>
