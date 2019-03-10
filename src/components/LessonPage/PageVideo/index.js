@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import Plyr from 'react-plyr';
+import PlyrComponent from '../../PlyrComponent'
 import { Row, Col } from 'antd';
 import './page-video.scss';
-import 'plyr/dist/plyr.css';
 
 class PageVideo extends Component {
   state = {
@@ -27,11 +26,10 @@ class PageVideo extends Component {
 
   componentWillReceiveProps(nextProps) {
     const {url, provider} = nextProps.mainVideo
-    const youtubeId = url.match(/\w+:\/\/\w+.\w+.\w+\/\w+\/(\w+)/)
     if(url !== this.state.videoUrl) {
       this.setState(({videoUrl, videoProvider}) => {
         return {
-          videoUrl : youtubeId[1],
+          videoUrl : url,
           videoProvider : provider
         }
       })
@@ -49,7 +47,7 @@ class PageVideo extends Component {
               <h2>{ mainVideo.title }</h2>
             </div>
             <div className="lesson-content__video">
-              <Plyr type={videoProvider}  videoId={videoUrl}/>
+              <PlyrComponent videoUrl={videoUrl} videoProvider={videoProvider}/>
             </div>
           </Col>
           <Col>
