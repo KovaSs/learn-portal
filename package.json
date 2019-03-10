@@ -7,7 +7,6 @@
     "plyr": "^3.5.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-plyr": "^2.1.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8"
   },

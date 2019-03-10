@@ -87,10 +87,8 @@ class App extends Component {
                   return <MenuItemList lesson={lessons}/>
                 }}/>
                 <Route path='/web-dev/:id' render={({match}) => {
-                  console.log(`match ->`, match)
                   const {id} = match.params;
                   const data = lessons.filter(item => item.id === id)
-                  console.log(match)
                   return <LessonPage data={data[0]} maxLesson={lessons.length}/>
                 }}/>
               </div>
