@@ -1,23 +1,26 @@
 import React, { Component } from 'react'
-import PlyrComponent from '../../PlyrComponent'
+import Plyr from 'react-plyr';
 import { Row, Col } from 'antd';
 import './page-video.scss';
+import 'plyr/dist/plyr.css';
 
 class PageVideo extends Component {
   state = {
     videoUrl : '',
+    videoId: '',
     videoProvider : ''
   }
 
   updateVideoUrl = () => {
     const {mainVideo : {url, provider}} = this.props
     this.setState(({videoUrl, videoProvider}) => {
+      const id = url.match(/\w+:\/\/\w+.\w+.\w+\/\w+\/(\w+)/)
       return {
         videoUrl : url,
+        videoId: id[1],
         videoProvider : provider
       }
     })
-    console.log(`update video`)
   }
 
   componentWillMount() {
@@ -27,9 +30,11 @@ class PageVideo extends Component {
   componentWillReceiveProps(nextProps) {
     const {url, provider} = nextProps.mainVideo
     if(url !== this.state.videoUrl) {
-      this.setState(({videoUrl, videoProvider}) => {
+      this.setState(({videoUrl, videoProvider, videoId}) => {
+        const id = url.match(/\w+:\/\/\w+.\w+.\w+\/\w+\/(\w+)/)
         return {
           videoUrl : url,
+          videoId: id[1],
           videoProvider : provider
         }
       })
@@ -38,7 +43,7 @@ class PageVideo extends Component {
 
   render() {
     const { mainVideo } = this.props
-    const { videoUrl, videoProvider } = this.state;
+    const { videoId, videoProvider } = this.state;
     return (
       <div className="lesson-content">
         <Row>
@@ -47,7 +52,7 @@ class PageVideo extends Component {
               <h2>{ mainVideo.title }</h2>
             </div>
             <div className="lesson-content__video">
-              <PlyrComponent videoUrl={videoUrl} videoProvider={videoProvider}/>
+              <Plyr type={videoProvider} videoId={videoId} />
             </div>
           </Col>
           <Col>
