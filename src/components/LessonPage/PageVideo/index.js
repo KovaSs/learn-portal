@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import Plyr from 'react-plyr';
+// import Plyr from 'react-plyr';
+// import PlyrComponent from '../../PlyrComponent';
+import ReactPlayer from 'react-player'
 import { Row, Col } from 'antd';
 import './page-video.scss';
 import 'plyr/dist/plyr.css';
@@ -7,17 +9,17 @@ import 'plyr/dist/plyr.css';
 class PageVideo extends Component {
   state = {
     videoUrl : '',
-    videoId: '',
-    videoProvider : ''
+    videoProvider : '',
+    // videoId: '',
   }
 
   updateVideoUrl = () => {
     const {mainVideo : {url, provider}} = this.props
     this.setState(({videoUrl, videoProvider}) => {
-      const id = url.match(/\w+:\/\/\w+.\w+.\w+\/\w+\/(\w+)/)
+      // const id = url.match(/\w+:\/\/\w+.\w+.\w+\/\w+\/(\w+)/)
       return {
+        // videoId: id[1],
         videoUrl : url,
-        videoId: id[1],
         videoProvider : provider
       }
     })
@@ -31,10 +33,10 @@ class PageVideo extends Component {
     const {url, provider} = nextProps.mainVideo
     if(url !== this.state.videoUrl) {
       this.setState(({videoUrl, videoProvider, videoId}) => {
-        const id = url.match(/\w+:\/\/\w+.\w+.\w+\/\w+\/(\w+)/)
+        // const id = url.match(/\w+:\/\/\w+.\w+.\w+\/\w+\/(\w+)/)
         return {
+          // videoId: id[1],
           videoUrl : url,
-          videoId: id[1],
           videoProvider : provider
         }
       })
@@ -43,7 +45,12 @@ class PageVideo extends Component {
 
   render() {
     const { mainVideo } = this.props
-    const { videoId, videoProvider } = this.state;
+    /** Plyr */
+    // const {videoId, videoProvider } = this.state;
+    /** PlyrComponent */
+    // const {videoUrl, videoProvider } = this.state;
+    /** ReactPlayer */
+    const {videoUrl } = this.state;
     return (
       <div className="lesson-content">
         <Row>
@@ -52,7 +59,18 @@ class PageVideo extends Component {
               <h2>{ mainVideo.title }</h2>
             </div>
             <div className="lesson-content__video">
-              <Plyr type={videoProvider} videoId={videoId} resetOnEnd/>
+              <ReactPlayer 
+                url={videoUrl} 
+                controls
+                style={{margin: '0 auto'}}
+                config={{
+                  youtube: {
+                    playerVars: { showinfo: 0 }
+                  },
+                }}
+              />
+              {/* <PlyrComponent videoProvider={videoProvider} videoUrl={videoUrl} /> */}
+              {/* <Plyr type={videoProvider} videoId={videoId} /> */}
             </div>
           </Col>
           <Col>
