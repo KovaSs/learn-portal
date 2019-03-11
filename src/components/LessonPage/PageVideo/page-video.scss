@@ -1,0 +1,16 @@
+.lesson {
+  &-content {
+    margin-top: 30px;
+    // background: rgba(167, 167, 167, 0.164);
+    &__video {
+
+      &_title {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.plyr__video-wrapper iframe .ytp-chrome-top .ytp-chrome-bottom{
+  display: none !important;
+}

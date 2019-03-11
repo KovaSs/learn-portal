@@ -12,7 +12,8 @@ export const data = {
         content : {
           mainVideo : {
             title : "Урок № 1. Работа с графикой для разработчика",
-            url : "https://www.youtube.com/embed/FRxSfKwwVcQ",
+            url: 'https://www.youtube.com/embed/FRxSfKwwVcQ',
+            provider: 'youtube',
             moments : [
               {
                 title: "Навык работы с дизайн-макетом для верстальщика",
@@ -108,6 +109,7 @@ export const data = {
           mainVideo : {
             title : "Настройка рабочего пространства",
             url : "https://www.youtube.com/embed/Tcgc__zayOg",
+            provider: 'youtube',
             moments : [
               {
                 title: "1) Создание директории (папки) с проектом",
@@ -240,7 +242,51 @@ export const data = {
         title: "Урок №2",
         description: "Знакомcтво с основами HTML",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-7.png",
-        alt: "task-7"
+        alt: "task-7",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-4",
@@ -248,7 +294,51 @@ export const data = {
         title: "Урок №3",
         description: "Знакомство с основами CSS",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-8.png",
-        alt: "task-8"
+        alt: "task-8",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-5",
@@ -256,7 +346,51 @@ export const data = {
         title: "Урок №4",
         description: "Блочная модель CSS",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-9.png",
-        alt: "task-9"
+        alt: "task-9",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-6",
@@ -264,7 +398,51 @@ export const data = {
         title: "Урок №5",
         description: "Верстка макета на HTML и CSS",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-10.png",
-        alt: "task-10"
+        alt: "task-10",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-7",
@@ -272,7 +450,51 @@ export const data = {
         title: "1 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
-        alt: "task-3"
+        alt: "task-3",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-8",
@@ -280,7 +502,51 @@ export const data = {
         title: "Урок №6",
         description: "Библиотека Bootstrap 4",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-12.png",
-        alt: "task-12"
+        alt: "task-12",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-9",
@@ -288,7 +554,51 @@ export const data = {
         title: "Урок №7",
         description: "Верстка на Bootstrap",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-13.png",
-        alt: "task-13"
+        alt: "task-13",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-10",
@@ -296,7 +606,51 @@ export const data = {
         title: "Урок №8",
         description: "Препроцессор SASS/SCSS",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-14.png",
-        alt: "task-14"
+        alt: "task-14",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-11",
@@ -304,7 +658,51 @@ export const data = {
         title: "Урок №9",
         description: "Flexbox верстка",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-15.png",
-        alt: "task-15"
+        alt: "task-15",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: 'youtube',
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-12",
@@ -312,7 +710,51 @@ export const data = {
         title: "Бонус урок №1",
         description: "Адаптивная верстка",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-16.png",
-        alt: "task-16"
+        alt: "task-16",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-13",
@@ -320,7 +762,51 @@ export const data = {
         title: "2 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
-        alt: "task-3"
+        alt: "task-3",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-14",
@@ -328,7 +814,51 @@ export const data = {
         title: "Урок №10",
         description: "Шрифты на сайте",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-17.png",
-        alt: "task-17"
+        alt: "task-17",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-15",
@@ -336,7 +866,51 @@ export const data = {
         title: "Урок №11",
         description: "Псевдоклассы и псевдоэлементы",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-18.png",
-        alt: "task-18"
+        alt: "task-18",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-16",
@@ -344,7 +918,51 @@ export const data = {
         title: "Урок №12",
         description: "Формы на сайте",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-19.png",
-        alt: "task-19"
+        alt: "task-19",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-17",
@@ -352,7 +970,51 @@ export const data = {
         title: "Урок №13",
         description: "Знакомство с JavaScript",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-20.png",
-        alt: "task-20"
+        alt: "task-20",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-18",
@@ -360,7 +1022,51 @@ export const data = {
         title: "Урок №14",
         description: "Всплывающие окна на jQuery",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-21.png",
-        alt: "task-21"
+        alt: "task-21",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-19",
@@ -368,7 +1074,51 @@ export const data = {
         title: "3 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
-        alt: "task-3"
+        alt: "task-3",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-20",
@@ -376,7 +1126,51 @@ export const data = {
         title: "Бонус - урок №2",
         description: "Ответы на вопросы, разбор сложных моментов",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-33.png",
-        alt: "task-33"
+        alt: "task-33",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-21",
@@ -384,7 +1178,51 @@ export const data = {
         title: "Урок №15",
         description: "Анимация на CSS3",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-22.png",
-        alt: "task-22"
+        alt: "task-22",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-22",
@@ -392,7 +1230,51 @@ export const data = {
         title: "Бонус - урок №3",
         description: "Слайдер на сайте",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-23.png",
-        alt: "task-23"
+        alt: "task-23",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-23",
@@ -400,7 +1282,51 @@ export const data = {
         title: "Практика. Часть1",
         description: "Форма + блок “Производство”",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-34.png",
-        alt: "task-34"
+        alt: "task-34",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-24",
@@ -408,7 +1334,51 @@ export const data = {
         title: "Практика. Часть2",
         description: "Делаем адаптив",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-34.png",
-        alt: "task-34"
+        alt: "task-34",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-25",
@@ -416,7 +1386,51 @@ export const data = {
         title: "4 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
-        alt: "task-3"
+        alt: "task-3",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-26",
@@ -424,7 +1438,51 @@ export const data = {
         title: "Урок №16",
         description: "Гео-карты для сайта",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-24.png",
-        alt: "task-24"
+        alt: "task-24",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-27",
@@ -432,7 +1490,51 @@ export const data = {
         title: "Урок №17",
         description: "Аналитика для сайта",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-28.png",
-        alt: "task-28"
+        alt: "task-28",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-28",
@@ -440,7 +1542,51 @@ export const data = {
         title: "Урок №18",
         description: "Как делаются многостраничные сайты",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-26.png",
-        alt: "task-26"
+        alt: "task-26",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-29",
@@ -448,7 +1594,51 @@ export const data = {
         title: "Урок №19",
         description: "Тестирование верстки",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-25.png",
-        alt: "task-25"
+        alt: "task-25",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-30",
@@ -456,7 +1646,51 @@ export const data = {
         title: "Урок №20",
         description: "Большой урок по WordPress",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-27.png",
-        alt: "task-27"
+        alt: "task-27",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-31",
@@ -464,7 +1698,51 @@ export const data = {
         title: "5 неделя. Прямая трансляция",
         description: "Ответы на вопросы, разбор сложных моментов",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
-        alt: "task-3"
+        alt: "task-3",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-32",
@@ -472,7 +1750,51 @@ export const data = {
         title: "Урок №21",
         description: "Поиск клиентов и продажа своих услуг",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-35.png",
-        alt: "task-35"
+        alt: "task-35",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-33",
@@ -480,7 +1802,51 @@ export const data = {
         title: "Бонус-урок по SEO",
         description: "3 часа подробного разбора поисковой оптимизации",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-36.png",
-        alt: "task-36"
+        alt: "task-36",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-34",
@@ -488,7 +1854,51 @@ export const data = {
         title: "Финальная встреча на курсе. Прямая трансляция",
         description: "Вот и все :)",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-3.png",
-        alt: "task-3"
+        alt: "task-3",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         id: "web-les-35",
@@ -496,7 +1906,51 @@ export const data = {
         title: "7 бонусная неделя. ФРИЛАНС",
         description: "6 часов подробного разбора всех тонкостей фриланса",
         icon : "http://isaev.store/www/web-portal/img/icon/icon-task-35.png",
-        alt: "task-35"
+        alt: "task-35",
+        content : {
+          mainVideo : {
+            title : "",
+            url : "",
+            provider: "youtube",
+            moments : [
+              {
+                title: "",
+                time : ""
+              },
+            ]
+          },
+          additionaLinks : [
+            {
+              title : "",
+              links : [
+                "",
+              ]
+            },
+          ],
+          additionaVideo : [
+            {
+              title : "",
+              url : ""
+            },
+          ],
+          files : [
+            {
+              title: "",
+              url: "",
+              type: ""
+            }
+          ],
+          homeTask: {
+            required : [
+              {
+                task : "",
+                li: [
+                  "",
+                ]
+              }
+            ]
+          }
+        }
       },
     ]
   },
