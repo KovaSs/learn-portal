@@ -52,7 +52,7 @@ class PageVideo extends Component {
               <h2>{ mainVideo.title }</h2>
             </div>
             <div className="lesson-content__video">
-              <Plyr type={videoProvider} videoId={videoId} />
+              <Plyr type={videoProvider} videoId={videoId} resetOnEnd/>
             </div>
           </Col>
           <Col>
