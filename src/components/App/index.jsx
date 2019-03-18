@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { connect } from 'react-redux';
 import MenuItemList from '../MenuItemList';
 import LessonPage from '../LessonPage';
-import { data } from './mock.js';
 import "./app.scss"
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   render() {
-    const { web : { lessons } } = data
+    const { lessons } = this.props
     const date = new Date()
     const menuNawItem = lessons.map(item => {
       return (
@@ -103,4 +103,10 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    lessons: state.lessons.data
+  }
+}
+
+export default connect(mapStateToProps)(App);

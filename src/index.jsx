@@ -1,8 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducer from './store/redusers';
+import './index.scss';
 import "antd/dist/antd.css";
 import App from './components/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const store = createStore(rootReducer)
+
+const AppWrapper = () => {
+  return(
+    <Provider store={store}>
+      <App />
+    </Provider>
+  )
+}
+
+ReactDOM.render(<AppWrapper />, document.getElementById('root'));
 
