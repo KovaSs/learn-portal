@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { Layout, Breadcrumb } from 'antd';
 import { connect } from 'react-redux';
 import MenuItemList from '../MenuItemList';
+import SubMenuContainer from '../SubMenuContainer';
 import LessonPage from '../LessonPage';
 import "./app.scss"
 
 const { Header, Content, Footer, Sider } = Layout;
-const SubMenu = Menu.SubMenu;
 
 class App extends Component {
   state = {
@@ -25,15 +25,6 @@ class App extends Component {
   render() {
     const { lessons } = this.props
     const date = new Date()
-    const menuNawItem = lessons.map(item => {
-      return (
-        <Menu.Item key={item.id}>
-          <Link to={`/web-dev/${item.id}`}>
-            Lesson {item.num}
-          </Link>
-        </Menu.Item>
-      )
-    })
 
     return (
       <Router>
@@ -46,32 +37,7 @@ class App extends Component {
             <Link to="/">
               <div className="logo" />
             </Link>
-            <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
-              <SubMenu
-                key="sub1"
-                title={
-                  <span className="sub-menu">
-                    <Link to='/web-dev'>
-                      <Icon type="chrome"/>
-                      <span>
-                        Web-deweloper
-                      </span>
-                    </Link>
-                  </span>
-                }
-              >
-                { menuNawItem }
-              </SubMenu>
-              <SubMenu
-                key="sub2"
-                title={<span><Icon type="solution" /><span>JS-deweloper</span></span>}
-              >
-                <Menu.Item key="5">Lesson 1</Menu.Item>
-                <Menu.Item key="6">Lesson 2</Menu.Item>
-                <Menu.Item key="7">Lesson 3</Menu.Item>
-                <Menu.Item key="8">Lesson 4</Menu.Item>
-              </SubMenu>
-            </Menu>
+            <SubMenuContainer lessons={lessons}/>
           </Sider>
           <Layout>
             <Header style={{ background: '#fff', padding: 0 }}>
@@ -103,10 +69,10 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const putStateToProps = state => {
   return {
     lessons: state.lessons.data
   }
 }
 
-export default connect(mapStateToProps)(App);
+export default connect(putStateToProps)(App);
