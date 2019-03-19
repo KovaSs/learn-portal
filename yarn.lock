@@ -7593,7 +7593,7 @@ pluralize@^7.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
 
-plyr@^3.3.21, plyr@^3.5.2:
+plyr@^3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/plyr/-/plyr-3.5.2.tgz#991e2686f00656cb46e8f49fe6ee2dbceaaef204"
   integrity sha512-7wx2uC4x2KusSWxdDYlXknwKjoFFCgPEc5gnoSGAZ9zmYcSIxRfAt1WPenkqix7tLRE1Pg7dgi91ZymxjZmbSg==
@@ -8985,6 +8985,11 @@ react-error-overlay@^5.1.4:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.4.tgz#88dfb88857c18ceb3b9f95076f850d7121776991"
   integrity sha512-fp+U98OMZcnduQ+NSEiQa4s/XMsbp+5KlydmkbESOw4P69iWZ68ZMFM5a2BuE0FgqPBKApJyRuYHR95jM8lAmg==
 
+react-id-generator@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-id-generator/-/react-id-generator-0.1.6.tgz#188328baa52509013b333ae208e65a9a0a9735f9"
+  integrity sha512-GBAlrLH1twYihtCi9HO6ceL7rf5HP/GK+ZMXxCF47Y5uu/l0JJbzFh7vSQ03RdBDm8+Iw3xYxpP5zJ+cHnGQgA==
+
 react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.2:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
@@ -9014,13 +9019,13 @@ react-player@^1.9.3:
     load-script "^1.0.0"
     prop-types "^15.5.6"
 
-react-plyr@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-plyr/-/react-plyr-2.1.1.tgz#d370b57b6cdb083c62f675f7d048a5d15682bf59"
-  integrity sha512-RhKxLClTW0CXWov7IT9stufWNjnv77fr3dekioF6c2Mgs9FvmrPagl3qGsZda8kjf4qoVVYH9pui6Cgt9FgoBA==
+react-plyr@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-plyr/-/react-plyr-2.2.0.tgz#94b0b2f815411d1af65de9694059eaab8a726c75"
+  integrity sha512-05oBKvCC9F2VMP7BNhh3x7xeK6PNUMYBPPWIip5sDRuey4HmpghfLQyOfsbNKTssR6kkxRSi2X9neYmfr91NuA==
   dependencies:
-    plyr "^3.3.21"
-    prop-types "^15.6.2"
+    plyr "^3.5.2"
+    prop-types "^15.7.2"
 
 react-redux@^6.0.1:
   version "6.0.1"

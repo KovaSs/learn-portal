@@ -37,7 +37,7 @@ class App extends Component {
             <Link to="/">
               <div className="logo" />
             </Link>
-            <SubMenuContainer lessons={lessons}/>
+            <SubMenuContainer />
           </Sider>
           <Layout>
             <Header style={{ background: '#fff', padding: 0 }}>
