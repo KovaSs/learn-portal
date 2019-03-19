@@ -10,10 +10,10 @@ class LessonPageContainer extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const putStateToProps = state => {
   return {
     lessons: state.lessons.data
   }
 }
 
-export default connect(mapStateToProps)(LessonPageContainer)
+export default connect(putStateToProps)(LessonPageContainer)

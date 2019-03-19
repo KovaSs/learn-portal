@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import idGenerator from 'react-id-generator';
 // import Plyr from 'react-plyr';
 // import PlyrComponent from '../../PlyrComponent';
 import ReactPlayer from 'react-player'
@@ -44,20 +45,33 @@ class PageVideo extends Component {
   }
 
   render() {
-    const { mainVideo } = this.props
+    const { mainVideo : { title, moments}} = this.props
     /** Plyr */
     // const {videoId, videoProvider } = this.state;
     /** PlyrComponent */
     // const {videoUrl, videoProvider } = this.state;
     /** ReactPlayer */
     const {videoUrl } = this.state;
+
+    const addVideoMoments = moments.map(item => {
+      const { title, time } = item
+      return (
+        <li 
+          className="lesson-content__moment"
+          key = {`${idGenerator('moment-')}`}
+        >
+          {title} <span>{time}</span>
+        </li>
+      )
+    })
+
     return (
       <div className="lesson-content">
         <Row>
-          <Col span={20} offset={2}>
-            <div className="lesson-content__video_title">
-              <h2>{ mainVideo.title }</h2>
-            </div>
+          <div className="lesson-content__video_title">
+            <h2>{ title }</h2>
+          </div>
+          <Col span={12}>
             <div className="lesson-content__video">
               <ReactPlayer 
                 url={videoUrl} 
@@ -73,7 +87,12 @@ class PageVideo extends Component {
               {/* <Plyr type={videoProvider} videoId={videoId} /> */}
             </div>
           </Col>
-          <Col>
+          <Col span={12}>
+            <div className="lesson-content__moments">
+              <ul>
+                { addVideoMoments }
+              </ul>
+            </div>
           </Col>
         </Row>
       </div>
