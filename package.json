@@ -26,7 +26,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react-id-generator": "^0.1.6",
     "react-player": "^1.9.3",
     "react-plyr": "2.2.0",
